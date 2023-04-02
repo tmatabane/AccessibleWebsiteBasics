@@ -1,0 +1,36 @@
+/* reset */
+*:focus{
+    outline: 4px solid lime;
+}
+a:hover{
+    outline: 4px solid lime;
+    font-size: xx-large;
+}
+
+/* Header */
+#intro{
+    font-size: larger;
+    
+}
+
+.skip a{
+    position: absolute;
+    /* left: 10000px; */
+    top: auto;
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+    font-size: 2em;
+    background: white;
+    font-weight: bold;
+    display: block;
+
+    /* padding: 10px; */
+    
+}
+
+.skip a:focus{
+    position: static;
+    width: auto;
+    height: auto;
+}
