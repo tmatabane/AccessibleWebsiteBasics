@@ -1,6 +1,7 @@
 /* reset */
 *:focus{
     outline: 4px solid lime;
+    font-size: xx-large;
 }
 a:hover{
     outline: 4px solid lime;
@@ -24,7 +25,6 @@ a:hover{
     background: white;
     font-weight: bold;
     display: block;
-
     /* padding: 10px; */
     
 }
@@ -33,4 +33,24 @@ a:hover{
     position: static;
     width: auto;
     height: auto;
+}
+
+/* Header */
+.navbar a{
+    float: left;
+    text-align: center;
+}
+
+.topnav{
+    background-color: peachpuff;
+    
+    
+}
+
+.topnav li{
+    text-decoration: none;
+    list-style-type: none;
+}
+.topnav li a{
+    text-decoration: none;
 }
